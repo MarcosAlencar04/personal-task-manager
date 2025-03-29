@@ -1,0 +1,68 @@
+.consultar-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f3f0ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consultar-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .tarefa-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tarefa-list li {
+    margin-bottom: 1rem;
+  }
+  
+  .tarefa-single {
+    margin: 0 auto;
+  }
+  
+  .tarefa-item {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    position: relative;
+    transition: opacity 0.3s;
+  }
+  
+  .tarefa-item.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .tarefa-item h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .tarefa-item p {
+    margin: 0.3rem 0;
+  }
+  
+  .btn-marcar {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-marcar:hover {
+    background-color: #218838;
+  }
+  
