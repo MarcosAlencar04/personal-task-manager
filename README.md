@@ -1,51 +1,51 @@
-# Gerenciador de Tarefas Pessoais
+# Personal Task Manager
 
-Este projeto é um gerenciador de tarefas pessoais desenvolvido em **React**, com três funcionalidades principais:
+This project is a personal task manager developed in **React**, with three main features:
 
-- **Cadastrar Tarefa:** Permite adicionar uma nova tarefa à lista.
-- **Consultar Tarefas:** Exibe todas as tarefas cadastradas.
-- **Conselho do Dia:** Ao clicar, o aplicativo consulta uma API externa para retornar um conselho aleatório.
-
----
-
-## Tecnologias Utilizadas
-
-- **React** 
-- **JavaScript**
-- **HTML5 e CSS3**
-- **API Externa** para obtenção de conselhos (https://api.adviceslip.com/advice)
+- **Add Task:** Allows adding a new task to the list.  
+- **View Tasks:** Displays all registered tasks.  
+- **Advice of the Day:** When clicked, the app fetches a random piece of advice from an external API.
 
 ---
 
-## Pré-Requisitos
+## Technologies Used
 
-- **Node.js**
-- **npm** para gerenciamento de pacotes
-
----
-
-## Observações
-
-- O projeto não possui integração com backend, todo o cadastro é realizado através de uma API "fictícia" que funciona com a utilização do local storage
+- **React**  
+- **JavaScript**  
+- **HTML5 and CSS3**  
+- **External API** for fetching advice (https://api.adviceslip.com/advice)
 
 ---
 
-## Como Executar
+## Prerequisites
 
-1. **Clonar o repositório:**
+- **Node.js**  
+- **npm** for package management
+
+---
+
+## Notes
+
+- The project has no backend integration; all task registration is handled through a "mock" API using local storage.
+
+---
+
+## How to Run
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/seu-usuario/gerenciador-de-tarefas-react.git
+   git clone https://github.com/your-username/gerenciador-de-tarefas-react.git
    ```
-2. **Instalar dependências:**
+2. **Install dependencies:**
    ```bash
    cd gerenciador-de-tarefas-react
    npm install
    ```
-3. **Iniciar o servidor de desenvolvimento:**
+3. **Start the development server:**
    ```bash
    npm run dev
    ```
-4. Abra o navegador e acesse:
+4. Open your browser and go to:
    ```
    http://localhost:5173
    ```
